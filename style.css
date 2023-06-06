@@ -1,0 +1,232 @@
+*{ 
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.uppersection{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.left-section{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    
+}
+
+.logo{
+    height: 100%;
+
+}
+
+.flex-text{
+    color: orange;
+    font-size: 40px;
+
+}
+
+.right-section{
+
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.right-section a{
+    color: white;
+    
+    font-size: 25px;
+    text-decoration: none;
+}
+.right-section a:hover{
+    color: orange;
+}
+
+.background-image{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 93%;
+  
+    
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    height: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+
+.skating-img-div{
+
+    position: relative;
+    
+}
+
+.skating-img{  
+    height: 900px;
+    width: 100%;
+
+}
+
+.bg-image-text{
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    
+}
+
+.Heading{
+    position: absolute;
+    top: 47%;
+    left: 37.5%;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.Heading-undertext{
+    position: absolute;
+    top: 57%;
+    left: 40%;
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+}
+.button{
+    position: absolute;
+    bottom: 30%;
+    left: 44%;
+    font-size: 30px;
+    background-color: rgb(207, 139, 11);
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+
+.services{
+    margin-top: 160px;
+        
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.caption-head{
+    font-size: 55px;
+}
+.caption{
+    font-size: 25px;
+    word-spacing: 3px;
+}
+
+.cards-section{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-right: 120px;
+    padding-left: 120px;
+
+
+}
+
+.card1{
+    position: relative;
+    background-color: green;
+    height: 430px;
+    width: 400px;
+
+}
+
+.card-icon{
+    position: absolute;
+    top: 49%;
+    left: 45%;
+    
+    
+}
+
+.card2{
+    position: relative;
+    background-color: orange;
+    height: 430px;
+    width: 400px;
+
+}
+.card3{
+    position: relative;
+    background-color: blue;
+    height: 430px;
+    width: 400px;
+
+}
+.card4{
+    position: relative;
+    background-color: lightgreen;
+    height: 430px;
+    width: 400px;
+
+}
+
+
+.portfolio{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.portfolio-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-row{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+
+.image-card-1, .image-card-2, .image-card-3, .image-card-4,.image-card-5, .image-card-6, .image-card-7, .image-card-8{
+    height: 520px;
+    width: 400px;
+}
